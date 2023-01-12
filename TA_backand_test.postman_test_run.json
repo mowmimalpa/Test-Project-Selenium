@@ -1,0 +1,390 @@
+{
+	"id": "ea172986-c6a0-4437-9097-8bae17edc0cc",
+	"name": "TA_backand_test",
+	"timestamp": "2023-01-12T17:30:07.518Z",
+	"collection_id": "21917107-abdaa3af-f61e-4802-8f52-ef51e5f771a4",
+	"folder_id": 0,
+	"environment_id": "0",
+	"totalPass": 12,
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "2f4281a1-7247-4a38-bbe1-573301964253",
+			"name": "CreateTitle",
+			"url": "https://ta-ebookrental-prod-kodilla-xmhvai.mo1.mogenius.io/titles/?userId=1",
+			"time": 238,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Name ": true
+			},
+			"testPassFailCounts": {
+				"Name ": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				238
+			],
+			"allTests": [
+				{
+					"Name ": true
+				}
+			]
+		},
+		{
+			"id": "1fe1f358-bf30-4751-9124-d544301d73bd",
+			"name": "GetTitles",
+			"url": "https://ta-ebookrental-prod-kodilla-xmhvai.mo1.mogenius.io/titles/?userId=1",
+			"time": 141,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Name ": true
+			},
+			"testPassFailCounts": {
+				"Name ": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				141
+			],
+			"allTests": [
+				{
+					"Name ": true
+				}
+			]
+		},
+		{
+			"id": "9d4ff41a-4fb1-404d-922e-4eeaa14e7d60",
+			"name": "UpdateTitle",
+			"url": "https://ta-ebookrental-prod-kodilla-xmhvai.mo1.mogenius.io/titles/?userId=1",
+			"time": 165,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Name ": true
+			},
+			"testPassFailCounts": {
+				"Name ": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				165
+			],
+			"allTests": [
+				{
+					"Name ": true
+				}
+			]
+		},
+		{
+			"id": "1cb121e8-1d23-4f4d-adbb-033450be9226",
+			"name": "DeleteTitle",
+			"url": "https://ta-ebookrental-prod-kodilla-xmhvai.mo1.mogenius.io/titles/?userId=1&id=52",
+			"time": 137,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Name ": true
+			},
+			"testPassFailCounts": {
+				"Name ": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				137
+			],
+			"allTests": [
+				{
+					"Name ": true
+				}
+			]
+		},
+		{
+			"id": "13a9473f-f205-4816-bbb0-8d177a36b22d",
+			"name": "CreateItem",
+			"url": "https://ta-ebookrental-prod-kodilla-xmhvai.mo1.mogenius.io/titles/?userId=1",
+			"time": 206,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Name ": true
+			},
+			"testPassFailCounts": {
+				"Name ": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				206
+			],
+			"allTests": [
+				{
+					"Name ": true
+				}
+			]
+		},
+		{
+			"id": "c2982d93-47c6-42cb-b003-2bbc04ffe89c",
+			"name": "GetItem",
+			"url": "https://ta-ebookrental-prod-kodilla-xmhvai.mo1.mogenius.io/titles/?userId=1",
+			"time": 134,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Name ": true
+			},
+			"testPassFailCounts": {
+				"Name ": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				134
+			],
+			"allTests": [
+				{
+					"Name ": true
+				}
+			]
+		},
+		{
+			"id": "2a080a41-ffda-4bf7-9031-312e2985c3a9",
+			"name": "UpdateItem",
+			"url": "https://ta-ebookrental-prod-kodilla-xmhvai.mo1.mogenius.io/titles/?userId=1",
+			"time": 165,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Name ": true
+			},
+			"testPassFailCounts": {
+				"Name ": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				165
+			],
+			"allTests": [
+				{
+					"Name ": true
+				}
+			]
+		},
+		{
+			"id": "489918fe-a00a-43dd-9108-2ee0816dfa0b",
+			"name": "DeleteItem",
+			"url": "https://ta-ebookrental-prod-kodilla-xmhvai.mo1.mogenius.io/titles/?userId=1&id=55",
+			"time": 133,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Name ": true
+			},
+			"testPassFailCounts": {
+				"Name ": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				133
+			],
+			"allTests": [
+				{
+					"Name ": true
+				}
+			]
+		},
+		{
+			"id": "0882310d-2112-416a-a83d-22b758b04b35",
+			"name": "GetRents",
+			"url": "https://ta-ebookrental-prod-kodilla-xmhvai.mo1.mogenius.io/titles/?userId=1&id=2",
+			"time": 137,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Name ": true
+			},
+			"testPassFailCounts": {
+				"Name ": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				137
+			],
+			"allTests": [
+				{
+					"Name ": true
+				}
+			]
+		},
+		{
+			"id": "5ea74aad-67df-41c2-8c3f-a0f22457e3c2",
+			"name": "CreateRent",
+			"url": "https://ta-ebookrental-prod-kodilla-xmhvai.mo1.mogenius.io/titles/?userId=1",
+			"time": 205,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Name ": true
+			},
+			"testPassFailCounts": {
+				"Name ": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				205
+			],
+			"allTests": [
+				{
+					"Name ": true
+				}
+			]
+		},
+		{
+			"id": "9cdd97e8-e88f-4273-81d0-795a1229f8e6",
+			"name": "UpdateRent",
+			"url": "https://ta-ebookrental-prod-kodilla-xmhvai.mo1.mogenius.io/titles/?userId=1",
+			"time": 167,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Name ": true
+			},
+			"testPassFailCounts": {
+				"Name ": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				167
+			],
+			"allTests": [
+				{
+					"Name ": true
+				}
+			]
+		},
+		{
+			"id": "3c037c61-15e5-4652-b75f-4b27871d4509",
+			"name": "DeleteRent",
+			"url": "https://ta-ebookrental-prod-kodilla-xmhvai.mo1.mogenius.io/titles/?userId=1&id=56",
+			"time": 131,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Name ": true
+			},
+			"testPassFailCounts": {
+				"Name ": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				131
+			],
+			"allTests": [
+				{
+					"Name ": true
+				}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 1959,
+	"collection": {
+		"requests": [
+			{
+				"id": "2f4281a1-7247-4a38-bbe1-573301964253",
+				"method": "POST"
+			},
+			{
+				"id": "1fe1f358-bf30-4751-9124-d544301d73bd",
+				"method": "GET"
+			},
+			{
+				"id": "9d4ff41a-4fb1-404d-922e-4eeaa14e7d60",
+				"method": "PUT"
+			},
+			{
+				"id": "1cb121e8-1d23-4f4d-adbb-033450be9226",
+				"method": "DELETE"
+			},
+			{
+				"id": "13a9473f-f205-4816-bbb0-8d177a36b22d",
+				"method": "POST"
+			},
+			{
+				"id": "c2982d93-47c6-42cb-b003-2bbc04ffe89c",
+				"method": "GET"
+			},
+			{
+				"id": "2a080a41-ffda-4bf7-9031-312e2985c3a9",
+				"method": "PUT"
+			},
+			{
+				"id": "489918fe-a00a-43dd-9108-2ee0816dfa0b",
+				"method": "DELETE"
+			},
+			{
+				"id": "0882310d-2112-416a-a83d-22b758b04b35",
+				"method": "GET"
+			},
+			{
+				"id": "5ea74aad-67df-41c2-8c3f-a0f22457e3c2",
+				"method": "POST"
+			},
+			{
+				"id": "9cdd97e8-e88f-4273-81d0-795a1229f8e6",
+				"method": "PUT"
+			},
+			{
+				"id": "3c037c61-15e5-4652-b75f-4b27871d4509",
+				"method": "DELETE"
+			}
+		]
+	}
+}
