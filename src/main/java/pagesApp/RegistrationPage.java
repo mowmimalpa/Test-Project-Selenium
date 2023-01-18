@@ -44,8 +44,6 @@ public class RegistrationPage extends AbstractPage{
         String pass = new PasswordGenerator().generatePassword(randomUser,rules);
         return pass;
 
-
-
     }
     public RegistrationPage enterData(String user,String pass){
         WebDriverWait wait = new WebDriverWait(driver,10);

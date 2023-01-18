@@ -21,15 +21,12 @@ public class MainPage extends AbstractPage {
         super(driver);
         PageFactory.initElements(this.driver, this);
     }
-
     public RegistrationPage redirectToRegistration() {
         WebDriverWait wait = new WebDriverWait(driver, 10);
         wait.until(ExpectedConditions.elementToBeClickable((signUpButton)));
         signUpButton.click();
         return PageFactory.initElements(driver, RegistrationPage.class);
     }
-
-
     public CatalogWithTitles loggedUser(String project,String tester) {
         WebDriverWait wait = new WebDriverWait(driver, 10);
         wait.until(ExpectedConditions.elementToBeClickable(signUpButton));

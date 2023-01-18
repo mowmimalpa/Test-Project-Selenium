@@ -19,8 +19,6 @@ public class RentalHistory extends AbstractPage {
     @FindBy(xpath = "//form/div/label/input")
     static WebElement customerTitleField;
 
-
-
     @FindBy(xpath = "//ul/li/div/button[1]")
     static WebElement editCopyOfRental;
 
