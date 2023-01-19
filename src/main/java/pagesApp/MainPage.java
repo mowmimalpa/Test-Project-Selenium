@@ -27,11 +27,11 @@ public class MainPage extends AbstractPage {
         signUpButton.click();
         return PageFactory.initElements(driver, RegistrationPage.class);
     }
-    public CatalogWithTitles loggedUser(String project,String tester) {
+    public CatalogWithTitles loggedUser(String user,String pass) {
         WebDriverWait wait = new WebDriverWait(driver, 10);
         wait.until(ExpectedConditions.elementToBeClickable(signUpButton));
-        login.sendKeys("project");
-        password.sendKeys("tester");
+        login.sendKeys(user);
+        password.sendKeys(pass);
         logInButton.click();
         return PageFactory.initElements(driver,CatalogWithTitles.class);
     }
