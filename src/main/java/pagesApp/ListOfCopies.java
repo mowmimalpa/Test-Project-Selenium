@@ -46,7 +46,7 @@ public class ListOfCopies extends AbstractPage{
         addTitleButtonOfCopies.click();
     }
 
-    public void removeCopies(int indexOfRemoveCopy ) throws InterruptedException{
+    public void removeCopies(int indexOfRemoveCopy) throws InterruptedException{
         Thread.sleep(1000);
         removeButtonOfCopies.get(indexOfRemoveCopy -1).click();
     }

@@ -32,4 +32,26 @@ public class RentalHistory extends AbstractPage {
         super(driver);
         PageFactory.initElements(this.driver,this);
     }
+    public void addBookToRentalCatalog(String client) throws InterruptedException{
+        Thread.sleep(1000);
+        rentalCopyButton.click();
+        customerTitleField.sendKeys(client);
+        confirmRentalButton.click();
+    }
+
+    public void updateTitleOfBook(String client) throws InterruptedException {
+        Thread.sleep(1000);
+        editCopyOfRental.click();
+        customerTitleField.clear();
+        customerTitleField.sendKeys(client);
+        confirmRentalButton.click();
+    }
+    public ListOfCopies returnToList(){
+        returnButtonOfRentalCopies.click();
+        return PageFactory.initElements(driver, ListOfCopies.class);
+    }
+    public void removeBookRental(int rentalIndex) throws InterruptedException{
+        Thread.sleep(1000);
+        removeButtonOfRentalCopies.get(rentalIndex -1).click();
+    }
 }

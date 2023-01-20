@@ -28,7 +28,7 @@ public class MainPage extends AbstractPage {
         return PageFactory.initElements(driver, RegistrationPage.class);
     }
     public CatalogWithTitles loggedUser(String user,String pass) {
-        WebDriverWait wait = new WebDriverWait(driver, 10);
+        WebDriverWait wait = new WebDriverWait(driver, 30);
         wait.until(ExpectedConditions.elementToBeClickable(signUpButton));
         login.sendKeys(user);
         password.sendKeys(pass);

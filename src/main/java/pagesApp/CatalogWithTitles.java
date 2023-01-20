@@ -23,10 +23,10 @@ public class CatalogWithTitles extends AbstractPage {
     @FindBy(xpath = "//div[1]/label/input")
     static WebElement title;
 
-    @FindBy(xpath = "div//[2]/label/input")
+    @FindBy(xpath = "//div[2]/label/input")
     static WebElement author;
 
-    @FindBy(xpath = "div//[3]/label/input")
+    @FindBy(xpath = "//div[3]/label/input")
     static WebElement year;
 
     @FindBy(xpath = "//form /button")
@@ -43,32 +43,31 @@ public class CatalogWithTitles extends AbstractPage {
 
     @FindBy(xpath = "//li/div[2]/button[2]")
     static List<WebElement> removeButton;
+    private final WebDriverWait wait = new WebDriverWait(driver, 10);
 
     public CatalogWithTitles(WebDriver driver) {
         super(driver);
         PageFactory.initElements(this.driver, this);
     }
 
-    public CatalogWithTitles addNewTitle(String titleBook, String authorBook, String yearBook) {
-        WebDriverWait wait = new WebDriverWait(driver, 10);
+    public CatalogWithTitles addNewTitle(String titleBook, String authorBook, int yearBook) {
         wait.until(ExpectedConditions.elementToBeClickable(addNewButton));
         addNewButton.click();
         title.sendKeys(titleBook);
         author.sendKeys(authorBook);
-        year.sendKeys(yearBook);
+        year.sendKeys(valueOf(yearBook));
         addTitle.click();
         return new CatalogWithTitles(driver);
     }
 
     public CatalogWithTitles remove(int indexOfRemoveTitle) {
         WebDriverWait wait = new WebDriverWait(driver, 10);
-        wait.until(elementToBeClickable(removeButton.get(indexOfRemoveTitle))).click();
+        wait.until(elementToBeClickable(removeButton.get(indexOfRemoveTitle-1))).click();
         return new CatalogWithTitles(driver);
     }
 
-    public void EditTitle(int indexOfRemoveTitle, String editedTitle, String editedAuthor, int editedYear) {
-        WebDriverWait wait = new WebDriverWait(driver, 10);
-        wait.until(elementToBeClickable(removeButton.get(indexOfRemoveTitle))).click();
+    public void editTitle(int indexOfRemoveTitle, String editedTitle, String editedAuthor, int editedYear) {
+        wait.until(elementToBeClickable(updateButton.get(indexOfRemoveTitle -1))).click();
         title.clear();
         author.clear();
         year.clear();

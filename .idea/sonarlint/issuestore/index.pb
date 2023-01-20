@@ -12,3 +12,9 @@ X
 gradlew,5\b\5bbfa66edb4db3c7c33c5181f43510990d3307f9
 <
 build.gradle,f\0\f07866736216be0ee2aba49e392191aeae700a35
+X
+(src/main/java/pagesApp/AbstractPage.java,d\d\dd9993e658a71ad58224c039b0962ad7b88b1df7
+Z
+*src/test/java/pages/RentalHistoryTest.java,e\f\efd6998f3bb77f28d9bc57009c19d92441ba5a69
+\
+,src/main/java/pagesApp/RegistrationPage.java,4\2\42b84d8f83ffb2cc2edb15f63c6034310080e427
