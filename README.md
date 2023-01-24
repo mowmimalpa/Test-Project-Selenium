@@ -1,16 +1,43 @@
-<h1 align="center">Cześć 👋, Jestem Dawid</h1>
-<h3 align="center">Wchodzący w branże Tester Automatyzujący</h3>
 
-- Pracuję aktualnie nad: [Projekt testerski z udziałem Selenium,prostej strony do wypożyczania książek](https://github.com/mowmimalpa/Test-Project-Selenium)
+## Selenium project
 
-- 👨‍💻 Wszystkie moje projekty: [https://github.com/mowmimalpa](https://github.com/mowmimalpa)
+Projekt polega na napisaniu testów automatycznych dla backendu i frontendu tworzonej właśnie prostej aplikacji wypożyczalni eBooków.
+## Źródła
 
-- 📫 Jak mnie znaleźć: **dmalecki.it@gmail.com**
+[Backand](https://ta-ebookrental-prod-kodilla-xmhvai.mo1.mogenius.io)
+[Frontend](https://ta-bookrental-fe.onrender.com)
+[Cały backand](https://github.com/kodilla/ta-ebooklibrary-backend)
+[Kontrolery](https://github.com/kodilla/ta-ebooklibrary-backend/tree/master/src/main/java/com/kodilla/ebooklibrary/controller)
 
-<h3 align="left">Kontakt ze mną:</h3>
-<p align="left">
-<a href="https://linkedin.com/in/https://www.linkedin.com/in/maleckidawidit/" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="https://www.linkedin.com/in/maleckidawidit/" height="30" width="40" /></a>
-</p>
 
-<h3 align="left">Języki i narzędzia:</h3>
-<p align="left"> <a href="https://www.docker.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg" alt="docker" width="40" height="40"/> </a> <a href="https://www.java.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" alt="java" width="40" height="40"/> </a> <a href="https://www.mysql.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="mysql" width="40" height="40"/> </a> <a href="https://postman.com" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg" alt="postman" width="40" height="40"/> </a> <a href="https://www.selenium.dev" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/detain/svg-logos/780f25886640cef088af994181646db2f6b1a3f8/svg/selenium-logo.svg" alt="selenium" width="40" height="40"/> </a> <a href="https://spring.io/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/springio/springio-icon.svg" alt="spring" width="40" height="40"/> </a> </p>
+## Specyfikacja
+
+Tworzona aplikacja ma za zadanie realizować następującą funkcjonalność:
+
+Ekran nr 1 – logowanie/rejestracja nowego użytkownika
+
+Pozostałe ekrany dostępne są po zalogowaniu.
+
+Ekran nr 2 – lista tytułów
+
+- wyświetlona lista: autor, tytuł, rok wydania
+- możliwość dodawania, edycji, usuwania, wejścia w listę egzemplarzy
+
+Ekran nr 3 – lista egzemplarzy
+
+- wyświetlona lista: data zakupu, status (na stanie, wypożyczona)
+- możliwość dodawania egzemplarzy, edycji, usuwania, wejścia w listę wypożyczeń
+
+Ekran nr 4 – lista wypożyczeń
+
+- wyświetlona lista: imię i nazwisko klienta, data wypożyczenia, data wygaśnięcia
+- możliwość wprowadzenia i usunięcia wypożyczenia
+- możliwość edycji
+
+Ekran nr 5 – wypożyczenie
+
+- formatka z polami: imię i nazwisko klienta (1 pole), data wypożyczenia, data wygaśnięcia
+- przy wejściu jako nowe wypożyczenie dostępne do edycji dwa pierwsze pola (drugie ustawia się domyślnie na sysdate()+3, pierwsze na sysdate())
+- przy wejściu jako edycja dostępne do edycji wszystkie pola.
+- każdy użytkownik pracuje niezależnie na swojej liście eBooków – jest to realizowane przez backend.
+
