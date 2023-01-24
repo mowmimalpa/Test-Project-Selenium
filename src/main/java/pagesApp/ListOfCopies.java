@@ -11,17 +11,17 @@ import java.util.List;
 
 public class ListOfCopies extends AbstractPage{
 
-    @FindBy(xpath = "//*[@id=\\\"add-item-button\\\"]")
+    @FindBy(xpath = "//*[@id=\"add-item-button\"]")
     static WebElement addItemButtonOfCopies;
 
-    @FindBy(xpath = "//from'button")
+    @FindBy(xpath = "//form/button")
     static WebElement addTitleButtonOfCopies;
 
     @FindBy(xpath = "//div/div/input")
     static WebElement purchaseDateInputField;
 
     @FindBy(xpath = "//li[1]/div/a/button")
-    static WebElement showCopiesFromTitlesCatalog;
+    static WebElement showCopiesFromTitlesCatalogButton;
 
     @FindBy(xpath = "//ul/li/div/button[1]")
     static WebElement editButtonOfCopies;
@@ -42,7 +42,7 @@ public class ListOfCopies extends AbstractPage{
 
     public void addCopyToList(){
         WebDriverWait wait = new WebDriverWait(driver, 10);
-        wait.until(ExpectedConditions.elementToBeClickable(addItemButtonOfCopies));
+        wait.until(ExpectedConditions.elementToBeClickable(addItemButtonOfCopies)).click();
         addTitleButtonOfCopies.click();
     }
 
@@ -58,7 +58,7 @@ public class ListOfCopies extends AbstractPage{
 
     public RentalHistory showRentalHistoryOfCopies() throws  InterruptedException{
         Thread.sleep(1000);
-        showCopiesFromTitlesCatalog.click();
+        showCopiesFromTitlesCatalogButton.click();
         return PageFactory.initElements(driver,RentalHistory.class);
     }
 }

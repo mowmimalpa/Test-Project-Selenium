@@ -53,7 +53,7 @@ public class CatalogWithTitlesTest {
         catalogWithTitles.addNewTitle("How to Build a Car", "Adrian Newey", 2017);
         driver.manage().timeouts().implicitlyWait(2, TimeUnit.SECONDS);
         catalogWithTitles.editTitle(1, "Life to the Limit", "Jenson Button", 2018);
-        Thread.sleep(2000 +);
+        Thread.sleep(2000);
         String editedBookTitle = driver.findElement(By.xpath("//div/div/ul/li[1]/div/div[1]")).getText();
         Assertions.assertEquals("LIFE TO THE LIMIT", editedBookTitle);
         catalogWithTitles.remove(1);

@@ -78,8 +78,7 @@ public class CatalogWithTitles extends AbstractPage {
     }
 
     public ListOfCopies displayListOfCopies(int indexOfTitle) {
-        WebDriverWait wait = new WebDriverWait(driver, 10);
-        wait.until(elementToBeClickable((showCopiesButton)));
+        wait.until(elementToBeClickable(showCopiesButton));
         List<WebElement> listOfBookCopies = driver.findElements(By.xpath("//div/a/button"));
         listOfBookCopies.get(indexOfTitle - 1).click();
         return PageFactory.initElements(driver, ListOfCopies.class);

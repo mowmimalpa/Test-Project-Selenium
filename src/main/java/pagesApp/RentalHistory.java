@@ -33,7 +33,7 @@ public class RentalHistory extends AbstractPage {
         PageFactory.initElements(this.driver,this);
     }
     public void addBookToRentalCatalog(String client) throws InterruptedException{
-        Thread.sleep(1000);
+        Thread.sleep(2000);
         rentalCopyButton.click();
         customerTitleField.sendKeys(client);
         confirmRentalButton.click();

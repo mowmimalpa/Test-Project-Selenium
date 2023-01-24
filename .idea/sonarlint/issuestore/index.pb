@@ -14,7 +14,11 @@ X
 build.gradle,f\0\f07866736216be0ee2aba49e392191aeae700a35
 X
 (src/main/java/pagesApp/AbstractPage.java,d\d\dd9993e658a71ad58224c039b0962ad7b88b1df7
-Z
-*src/test/java/pages/RentalHistoryTest.java,e\f\efd6998f3bb77f28d9bc57009c19d92441ba5a69
+^
+.src/test/java/user/TestLoginAndCreateUser.java,e\c\ec0b3f2268fe2cab840835e342518ce1f25e81cb
+T
+$src/main/java/pagesApp/MainPage.java,0\4\0413ee8c679a798ff237a5fb937e6c8a842333c0
 \
 ,src/main/java/pagesApp/RegistrationPage.java,4\2\42b84d8f83ffb2cc2edb15f63c6034310080e427
+Y
+)src/test/java/pages/ListOfCopiesTest.java,2\b\2bfa20b6e382f00fe6caa1827833a265bd4203c9
