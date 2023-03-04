@@ -5,9 +5,20 @@ Projekt polega na napisaniu testów automatycznych dla backendu i frontendu twor
 ## Źródła
 
 [Backand](https://ta-ebookrental-prod-kodilla-xmhvai.mo1.mogenius.io)
+
 [Frontend](https://ta-bookrental-fe.onrender.com)
+
 [Cały backand](https://github.com/kodilla/ta-ebooklibrary-backend)
+
 [Kontrolery](https://github.com/kodilla/ta-ebooklibrary-backend/tree/master/src/main/java/com/kodilla/ebooklibrary/controller)
+
+## Dokumentacja
+[Przypadki testowe](https://drive.google.com/file/d/196M1n4GGJJ1OJLvGpzYyoW9iFbZUhYEW/view)
+
+[Raporty testowanego Backandu](https://github.com/mowmimalpa/Test-Project-Selenium/blob/main/TA_backand_test.postman_test_run.json) 
+
+[Scenariusze testowe endpointów](https://github.com/mowmimalpa/Test-Project-Selenium/blob/main/TA_backand.postman_collection.json)
+
 
 
 ## Specyfikacja
