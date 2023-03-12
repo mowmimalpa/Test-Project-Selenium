@@ -1,54 +1,54 @@
 
 ## Selenium project
 
-Projekt polega na napisaniu testów automatycznych dla backendu i frontendu tworzonej właśnie prostej aplikacji wypożyczalni eBooków.
-## Źródła
+The project involves writing automated tests for the backend and frontend of an eBook rental application.
+## Sources
 
 [Backand](https://ta-ebookrental-prod-kodilla-xmhvai.mo1.mogenius.io)
 
 [Frontend](https://ta-bookrental-fe.onrender.com)
 
-[Cały backand](https://github.com/kodilla/ta-ebooklibrary-backend)
+[Entire backend](https://github.com/kodilla/ta-ebooklibrary-backend)
 
-[Kontrolery](https://github.com/kodilla/ta-ebooklibrary-backend/tree/master/src/main/java/com/kodilla/ebooklibrary/controller)
+[Controllers](https://github.com/kodilla/ta-ebooklibrary-backend/tree/master/src/main/java/com/kodilla/ebooklibrary/controller)
 
-## Dokumentacja
-[Przypadki testowe](https://drive.google.com/file/d/196M1n4GGJJ1OJLvGpzYyoW9iFbZUhYEW/view)
+## Documentation
+[Test cases](https://drive.google.com/file/d/196M1n4GGJJ1OJLvGpzYyoW9iFbZUhYEW/view)
 
-[Raporty testowanego Backandu](https://github.com/mowmimalpa/Test-Project-Selenium/blob/main/TA_backand_test.postman_test_run.json) 
+[Backend test reports](https://github.com/mowmimalpa/Test-Project-Selenium/blob/main/TA_backand_test.postman_test_run.json) 
 
-[Scenariusze testowe endpointów](https://github.com/mowmimalpa/Test-Project-Selenium/blob/main/TA_backand.postman_collection.json)
+[Endpoint test scenarios](https://github.com/mowmimalpa/Test-Project-Selenium/blob/main/TA_backand.postman_collection.json)
 
 
 
-## Specyfikacja
+## Specification
 
-Tworzona aplikacja ma za zadanie realizować następującą funkcjonalność:
+The application being created is intended to perform the following functionality:
 
-Ekran nr 1 – logowanie/rejestracja nowego użytkownika
+Screen 1 - user login/registration
 
-Pozostałe ekrany dostępne są po zalogowaniu.
+All other screens are available after logging in.
 
-Ekran nr 2 – lista tytułów
+Screen 2 - list of titles
 
-- wyświetlona lista: autor, tytuł, rok wydania
-- możliwość dodawania, edycji, usuwania, wejścia w listę egzemplarzy
+displayed list: author, title, year of publication
+ability to add, edit, delete, and access the list of copies
 
-Ekran nr 3 – lista egzemplarzy
+Screen 3 - list of copies
 
-- wyświetlona lista: data zakupu, status (na stanie, wypożyczona)
-- możliwość dodawania egzemplarzy, edycji, usuwania, wejścia w listę wypożyczeń
+displayed list: purchase date, status (in stock, rented)
+ability to add copies, edit, delete, and access the list of rentals
 
-Ekran nr 4 – lista wypożyczeń
+Screen 4 - list of rentals
 
-- wyświetlona lista: imię i nazwisko klienta, data wypożyczenia, data wygaśnięcia
-- możliwość wprowadzenia i usunięcia wypożyczenia
-- możliwość edycji
+displayed list: customer's first and last name, rental date, expiration date
+ability to enter and delete a rental
+ability to edit
 
-Ekran nr 5 – wypożyczenie
+Screen 5 - rental
 
-- formatka z polami: imię i nazwisko klienta (1 pole), data wypożyczenia, data wygaśnięcia
-- przy wejściu jako nowe wypożyczenie dostępne do edycji dwa pierwsze pola (drugie ustawia się domyślnie na sysdate()+3, pierwsze na sysdate())
-- przy wejściu jako edycja dostępne do edycji wszystkie pola.
-- każdy użytkownik pracuje niezależnie na swojej liście eBooków – jest to realizowane przez backend.
+form with fields: customer's first and last name (1 field), rental date, expiration date
+when entering as a new rental, the first two fields are available for editing (the second is set by default to sysdate()+3, the first to sysdate())
+when entering as an edit, all fields are available for editing.
+each user works independently on their own list of eBooks - this is implemented by the backend.
 
