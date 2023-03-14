@@ -13,7 +13,7 @@ The project involves writing automated tests for the backend and frontend of an 
 [Controllers](https://github.com/kodilla/ta-ebooklibrary-backend/tree/master/src/main/java/com/kodilla/ebooklibrary/controller)
 
 ## Documentation
-[Test cases](https://drive.google.com/file/d/196M1n4GGJJ1OJLvGpzYyoW9iFbZUhYEW/view)
+[Test cases](https://1drv.ms/x/s!AuoBz13j3BP2hLAwr1U95giP8iqKwQ?e=kQ6oGc)
 
 [Backend test reports](https://github.com/mowmimalpa/Test-Project-Selenium/blob/main/TA_backand_test.postman_test_run.json) 
 
