@@ -48,7 +48,7 @@ ability to edit
 Screen 5 - rental
 
 form with fields: customer's first and last name (1 field), rental date, expiration date
-when entering as a new rental, the first two fields are available for editing (the second is set by default to sysdate()+3, the first to sysdate())
+when entering as a new rental, the first two fields are available for editing 
 when entering as an edit, all fields are available for editing.
 each user works independently on their own list of eBooks - this is implemented by the backend.
 
